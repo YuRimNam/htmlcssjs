@@ -1,0 +1,131 @@
+.aniEle {
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+}
+
+body {
+    margin: 50px;
+}
+
+.ears {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(75, 42, 20);
+    border-radius: 100%;
+}
+
+#leftear {
+    position: absolute;
+    left: 85px;
+}
+
+#rightear {
+    position: absolute;
+    left: 360px;
+}
+
+#head {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(75, 42, 20);
+    border-radius: 250px;
+}
+
+.eyes {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+#lefteye {
+    position: absolute;
+    left: 300px;
+    top: 245px;
+}
+
+#righteye {
+    position: absolute;
+    left: 250px;
+    top: 245px;
+}
+
+#leftossicle {
+    position: absolute;
+    left: 110px;
+    -webkit-transform: rotateZ(50deg);
+    transform: rotateZ(50deg);
+    width: 52px;
+    height: 100px;
+    background-color: rgb(54, 31, 13);
+    border-radius: 100px 0 0 100px;
+}
+
+#rightossicle {
+    position: absolute;
+    left: 430px;
+    -webkit-transform: rotateZ(130deg);
+    transform: rotateZ(130deg);
+    width: 52px;
+    height: 100px;
+    background-color: rgb(54, 31, 13);
+    border-radius: 100px 0 0 100px;
+}
+
+#nose {
+    position: absolute;
+    top: 280px;
+    left: 270px;
+    border-top: 30px solid black;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-radius: 25%;
+}
+
+#noseback {
+    position: absolute;
+    top: 275px;
+    left: 250px;
+    width: 80px;
+    height: 150px;
+    background-color: rgb(255, 239, 191);
+    border-radius: 100%;
+}
+
+.mouth {
+    position: absolute;
+    top: 285px;
+    left: 285px;
+    width: 10px;
+    height: 70px;
+    background-color: black;
+    border-radius: 10%;
+}
+
+#leftmouth {
+    position: absolute;
+    top: 350px;
+    left: 278px;
+    width: 10px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10%;
+    -webkit-transform: rotateX(25deg);
+    transform: rotate(25deg);
+}
+
+#rightmouth {
+    position: absolute;
+    top: 350px;
+    left: 295px;
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    border-radius: 10%;
+    -webkit-transform: rotateX(125deg);
+    transform: rotate(125deg);
+}
