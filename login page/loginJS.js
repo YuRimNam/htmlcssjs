@@ -1,4 +1,4 @@
 function next_page ()
 {
-    location.href="./dds.html";
+    location.href="./next_page_HTML.html";
 }

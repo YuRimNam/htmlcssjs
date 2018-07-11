@@ -1,0 +1,32 @@
+html, body {
+    margin: 0%;
+    background-color: white;
+}
+
+.over {
+    position: absolute;
+    left: 10%;
+    width: 1100px;
+    height: 100px;
+    border-bottom: solid rgb(112, 112, 112) 1px;
+}
+
+img {
+    position: absolute;
+    top: 20px;
+}
+
+.over #logout {
+    position: absolute;
+    left: 70%;
+    top: 50px;
+    font-size: 15pt;
+    font-family: jokerman, "돋움"; 
+}
+
+.over .bar {
+    position: absolute;
+    left: 77%;
+    top: 55px;
+    color: rgb(112, 112, 112);
+}
