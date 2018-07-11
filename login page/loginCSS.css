@@ -54,26 +54,6 @@ img {
     border: solid rgb(189, 189, 189) 1px;
 }
 
-.under #git {
-    background-color: transparent;
-    position: absolute;
-    top: 95%;
-    left: 5%;
-    color: rgb(172, 172, 172);
-    font-size: 12pt;
-    font-family: "나눔고딕";
-}
-
-.under #tis {
-    background-color: transparent;
-    position: absolute;
-    top: 95%;
-    left: 10%;
-    color: rgb(172, 172, 172);
-    font-size: 12pt;
-    font-family: "나눔고딕";
-}
-
 .under #next {
     background-color: rgb(243, 243, 243);
     position: absolute;
