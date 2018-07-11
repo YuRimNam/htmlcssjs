@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="C:\Users\DSM2018\Desktop\과제\js_study\favicon\favicon.ico" />
+    <link rel="stylesheet" text="text/css" href="./loginCSS.css" />
+    <title>login page</title>
+</head>
+<body>
+    <script src="./loginJS.js"></script>
+    <div class="over">
+        <img id="login" src="./login.png" alt="login" />
+        <span id="name"> milkyway </span>
+        <span id="join">join</span>
+    </div>
+    <div class="under">
+        <input type="text" class="box" id="id" placeholder="아이디를 입력하세요." maxlength="25"/><br/>
+        <input type="password" class="box" id="password" placeholder="비밀번호를 입력하세요." maxlength="30"/> 
+        <input type="button" class="box" id="next" title="로그인" value="로그인" onclick="next_page();" readonly/>
+        <span id="git"><a href="https://github.com/milkyway002" style="text-decoration: none;">github</a></span>
+        <span id="tis"><a href="http://mynote-study.tistory.com/" style="text-decoration: none;">tistory</a></span>
+    </div>
+    <div class="login"></div>
+</body>
+</html>
