@@ -12,21 +12,60 @@ html, body {
 }
 
 img {
-    position: absolute;
+    position: fixed;
     top: 20px;
 }
 
-.over #logout {
-    position: absolute;
+.over .logout {
+    position: fixed;
+    display: inline;
     left: 70%;
     top: 50px;
     font-size: 15pt;
-    font-family: jokerman, "돋움"; 
+    font-family: jokerman, "돋움";
+}
+
+.over .logout a{
+    color: black;
+}
+
+.over .other .page {
+    position: fixed;
+    top: 50px;
+    left: 1030px;
+    border: none;
+    display: inline;
+    font-family: jokerman, "돋움";
+    font-size: 15pt;
+    background-color: white;
+}
+
+.over .other .link {
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    top: 76px;
+}
+
+.over .other:hover .link a{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 920px;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 13pt;
+    font-family: segoe script, "돋움";
+    text-decoration: none;
+    color: black;
+}
+
+.over .other .link a{
+    display: none;
 }
 
 .over .bar {
-    position: absolute;
-    left: 77%;
+    position: fixed;
+    left: 75%;
     top: 55px;
     color: rgb(112, 112, 112);
 }
