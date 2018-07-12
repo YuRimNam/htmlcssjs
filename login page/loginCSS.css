@@ -15,13 +15,40 @@ img {
     left: 42%;
 }
 
-.over #name {
+.over .name {
+    display: inline;
+}
+
+.over .name .milk {
+    border: none;
+    background-color: white;
     position: absolute;
     left: 10%;
     top: 15%;
     font-family: "a전자시계", segoe script;
     font-size: 25pt;
     color: black;
+}
+
+.over .name:hover .drop a{
+    position: relative;
+    margin-top: 11%;
+    margin-left: 7%;
+    display: inline-block;
+    font-family: segoe script;
+    font-size: 15pt;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    z-index: 1;
+}
+
+.over .name .drop a:hover {
+    background-color: rgb(170, 170, 170);
+}
+
+.over .name .drop a{
+    display: none;
 }
 
 .over #join {
