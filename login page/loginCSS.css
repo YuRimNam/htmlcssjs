@@ -59,6 +59,10 @@ img {
     font-family: "a전자시계", segoe script; 
 }
 
+.over .clock {
+    position: fixed;
+}
+
 .box {
     background-color: rgb(253, 253, 253);
     width: 30%;
@@ -89,3 +93,4 @@ img {
     color: rgb(75, 75, 75);
     border: none;
 }
+

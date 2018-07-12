@@ -69,3 +69,12 @@ img {
     top: 55px;
     color: rgb(112, 112, 112);
 }
+
+.over .clock {
+    position: fixed;
+    left: 540px;
+    top: 35px;
+    width: 200px;
+    height: 60px;
+    border: solid rgb(212, 212, 212) 1px;
+}
