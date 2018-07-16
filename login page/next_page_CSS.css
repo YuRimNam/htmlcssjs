@@ -84,10 +84,21 @@ img {
 }
 
 .under {
-    position: inherit;
+    position: relative;
     width: 330px;
     height: 1000px;
     border-right: solid 1px rgb(112, 112, 112); 
+}
+
+.under #study{
+    position: absolute;
+    top: 130px;
+    left: 360px;
+    width: 300px;
+    height: 300px;
+    border: solid 1px rgb(112, 112, 112);
+    border-radius: 20%;
+    font-family: "a도깨비";
 }
 
 /*.under #homework {

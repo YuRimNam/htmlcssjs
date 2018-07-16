@@ -6,13 +6,14 @@ function startTime () {
     var sec=time.getSeconds();
     min=checkTime(min);
     sec=checkTime(sec);
-    document.getElementById('clock').innerHTML = h + ":" + min + ":" + sec + " " + ampm;
+    
     if (h>=12)
     {
         ampm='PM';
         h=h-12;
     }
 
+    document.getElementById('clock').innerHTML = h + ":" + min + ":" + sec + " " + ampm;
     var t=setTimeout(startTime, 1000);
 }
 
@@ -22,4 +23,4 @@ function checkTime(i) {
         i='0'+i;
     }
     return i;
-} 
+}
