@@ -6,7 +6,7 @@ function startTime () {
     var sec=time.getSeconds();
     min=checkTime(min);
     sec=checkTime(sec);
-    document.getElementById('clock').innerHTML = h + ":" + min + ":" + sec;
+    document.getElementById('clock').innerHTML = h + ":" + min + ":" + sec + " " + ampm;
     if (h>=12)
     {
         ampm='PM';
