@@ -75,7 +75,7 @@ img {
     display: block;
     left: 540px;
     top: 35px;
-    width: 200px;
-    height: 60px;
-    border: solid rgb(212, 212, 212) 1px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "a전자시계", "돋움";
 }

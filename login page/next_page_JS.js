@@ -1,16 +1,25 @@
-function time () {
+function startTime () {
     var time= new Date();
     var ampm= 'AM';
-    var hour=addZeros(timeDate.getHours(), 2);
-    var min=addZeros(timeDate.getMinutes(), 2);
-    var sec=addZeros(timeDate.getSeconds(), 2);
-
-    if (hour>=12)
+    var h=time.getHours();
+    var min=time.getMinutes();
+    var sec=time.getSeconds();
+    min=checkTime(min);
+    sec=checkTime(sec);
+    document.getElementById('clock').innerHTML = h + ":" + min + ":" + sec;
+    if (h>=12)
     {
         ampm='PM';
-        hour=addZeros(hour-12, 2);
+        h=h-12;
     }
 
-    settimeout("time()", 1000);
-    document.getElementById('clock').innerHTML = h+':'+m+':'+s;
+    var t=setTimeout(startTime, 1000);
 }
+
+function checkTime(i) {
+    if (i < 10)
+    {
+        i='0'+i;
+    }
+    return i;
+} 
