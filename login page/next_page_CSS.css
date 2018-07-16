@@ -8,6 +8,7 @@ html, body {
     left: 10%;
     width: 1100px;
     height: 100px;
+    background-color: white;
     border-bottom: solid rgb(112, 112, 112) 1px;
 }
 
@@ -44,6 +45,7 @@ img {
     position: absolute;
     width: 120px;
     height: 60px;
+    display: inline;
     top: 76px;
 }
 
@@ -65,6 +67,7 @@ img {
 
 .over .bar {
     position: fixed;
+    display: inline;
     left: 75%;
     top: 55px;
     color: rgb(112, 112, 112);
@@ -79,3 +82,15 @@ img {
     font-size: 40px;
     font-family: "a전자시계", "돋움";
 }
+
+.under {
+    position: inherit;
+    width: 330px;
+    height: 1000px;
+    border-right: solid 1px rgb(112, 112, 112); 
+}
+
+/*.under #homework {
+    position: inherit;
+    display: inline;
+}*/
