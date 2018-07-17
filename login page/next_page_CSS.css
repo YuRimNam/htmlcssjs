@@ -14,14 +14,14 @@ html, body {
 
 img {
     position: fixed;
-    top: 20px;
+    top: 40px;
 }
 
 .over .logout {
     position: fixed;
     display: inline;
     left: 70%;
-    top: 50px;
+    top: 78px;
     font-size: 15pt;
     font-family: jokerman, "돋움";
 }
@@ -32,8 +32,8 @@ img {
 
 .over .other .page {
     position: fixed;
-    top: 50px;
-    left: 1030px;
+    top: 78px;
+    left: 1015px;
     border: none;
     display: inline;
     font-family: jokerman, "돋움";
@@ -46,13 +46,13 @@ img {
     width: 120px;
     height: 60px;
     display: inline;
-    top: 76px;
+    top: 85px;
 }
 
 .over .other:hover .link a{
     position: relative;
     margin-top: 2%;
-    margin-left: 920px;
+    margin-left: 900px;
     display: inline-block;
     background-color: transparent;
     font-size: 13pt;
@@ -69,7 +69,7 @@ img {
     position: fixed;
     display: inline;
     left: 75%;
-    top: 55px;
+    top: 85px;
     color: rgb(112, 112, 112);
 }
 
@@ -77,7 +77,7 @@ img {
     position: fixed;
     display: block;
     left: 540px;
-    top: 35px;
+    top: 60px;
     text-align: center;
     font-size: 40px;
     font-family: "a전자시계", "돋움";
@@ -90,7 +90,7 @@ img {
     border-right: solid 1px rgb(112, 112, 112); 
 }
 
-.under #study{
+.under #study {
     position: absolute;
     top: 130px;
     left: 360px;
@@ -98,10 +98,19 @@ img {
     height: 300px;
     border: solid 1px rgb(112, 112, 112);
     border-radius: 20%;
+}
+
+.under #myStudy {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    font-size: 20pt;
     font-family: "a도깨비";
 }
 
-/*.under #homework {
-    position: inherit;
+.under #homework {
+    position: relative;
     display: inline;
-}*/
+    top: 130px;
+    left: 260px;
+}
