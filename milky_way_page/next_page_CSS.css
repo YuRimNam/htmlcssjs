@@ -47,14 +47,14 @@ img {
     width: 120px;
     height: 60px;
     display: inline;
-    top: 75px;
+    top: 85px;
 }
 
 .over .other:hover .link a{
     position: relative;
     margin-top: 2%;
     margin-left: 900px;
-    display: inline-block;
+    display: inline;
     background-color: transparent;
     font-size: 13pt;
     font-family: segoe script, "돋움";
@@ -121,4 +121,22 @@ img {
     list-style-type: square;
     font-size: 15pt;
     font-family: "a어린왕자L", "휴먼편지체";
+}
+
+.under .list #oae {
+    margin-top: 15%;
+}
+
+.under .list #oae a{
+    color: black;
+    text-decoration: none;
+}
+
+.under .list #js {
+    margin-top: 5%; 
+}
+
+.under .list #js a{
+    color: black;
+    text-decoration: none;
 }
