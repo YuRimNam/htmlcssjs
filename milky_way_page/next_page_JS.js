@@ -14,7 +14,7 @@ function startTime () {
     }
 
     document.getElementById('clock').innerHTML = h + ":" + min + ":" + sec + " " + ampm;
-    var t=setTimeout(startTime, 1000);
+    var t=setTimeout(startTime, 500);
 }
 
 function checkTime(i) {
