@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <link rel="icon" href="C:\Users\DSM2018\Desktop\과제\js_study\favicon\milkyway.ico" />
     <link rel="stylesheet" text="text/css" href="./loginCSS.css" />
-    <title>Milkyway</title>
+    <script src="./loginJS.js"></script>
+    <title>Milkyway: login</title>
 </head>
 <body>
     <script src="./loginJS.js"></script>
@@ -17,7 +18,7 @@
                 <a href="http://mynote-study.tistory.com/" target="blank">Tistory</a>
             </div>
         </div>
-        <span id="join">join</span>
+        <input id="join" type="button" onclick="join_page();" value="join"/>
     </div>
     <div class="under">
         <input type="text" class="box" id="id" placeholder="아이디를 입력하세요." maxlength="25"/><br/>
@@ -25,5 +26,7 @@
         <input type="button" class="box" id="next" title="로그인" value="로그인" onclick="next_page();" readonly/>
     </div>
     <div class="login"></div>
+    <script src="./loginJS.js">next_page();</script>
+    <script src="./loginJS.js">join_page();</script>
 </body>
 </html>

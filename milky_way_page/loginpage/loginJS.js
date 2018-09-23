@@ -9,6 +9,11 @@ function next_page ()
         alert('아이디를 입력하세요.');
     else if(ps=='')
         alert('패스워드를 입력하세요.');
-    else if(pk!='sea_bom_12' && ps!='gpfla123')
+    else if(pk!='sea_bom_12' && ps!='gpfladbfla1')
         alert('잘못 입력하셨습니다. 다시 입력하세요.');
+}
+
+function join_page() {
+    console.log(1);
+    location.href(../join_page/join_page.html);
 }
